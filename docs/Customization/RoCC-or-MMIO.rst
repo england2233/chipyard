@@ -12,7 +12,7 @@ These approaches differ in the method of the communication between the processor
 
 With the TileLink-Attached approach, the processor communicates with MMIO peripherals through memory-mapped registers.
 
-In contrast, the processor communicates with a RoCC accelerators through a custom protocol and custom non-standard ISA instructions reserved in the RISC-V ISA encoding space.
+In contrast, the processor communicates with a RoCC accelerator through a custom protocol and custom non-standard ISA instructions reserved in the RISC-V ISA encoding space.
 Each core can have up to four accelerators that are controlled by custom instructions and share resources with the CPU.
 RoCC coprocessor instructions have the following form.
 
